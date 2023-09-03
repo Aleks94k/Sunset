@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+	background: url(../images/pink-flowers.webp);
+	font-family: "Roboto", Arial, sans-serif;
+	font-weight: 400;
+}
+
+.wrapper {
+	width: 89%;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.header,
+.main,
+.footer {
+	padding: 0 50px;
+}
+
+.header__heading {
+	padding-top: 96px;
+	margin-bottom: 46px;
+	color:#A11414;
+	font-family: Roboto;
+	font-size: 2rem;
+	font-weight: 400;
+	line-height: 38px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.header__heading--spec {
+	font-family: Roboto;
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 38px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.header__img-wrap {
+	padding: 14px 13px;
+	border: 1px solid #000;
+	border-radius: 2px;
+	margin-bottom: 57px;
+}
+
+.header__img-wrap img {
+	width: 100%;
+}
+
+.section--flx {
+	display: flex;
+}
+
+.article__heading {
+	padding-bottom: 15px;
+	font-family: Roboto;
+	font-size: 1.5rem;
+	font-weight: 700;
+	line-height: 28px;
+	letter-spacing: 0em;
+	text-align: left;
+	color:#A11414;
+}
+
+.article__item {
+		color: #1D1B1B;
+		font-family: Roboto;
+		font-size: 1rem;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+}
+
+.article__text--spec{
+	text-transform: uppercase;
+}
+
+.article__text--mod {
+	color: #A11414;
+}
+
+.article__text--add {
+	text-decoration-line: line-through;
+}
+.nav-wrap {
+	width: 29%;
+	border-radius: 2px 15px;
+	background: #d7d7d7;
+	padding: 29px 26px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav__link {
+	color: #000;
+	text-decoration: none;
+}
+
+.nav__link:hover {
+	font-weight: 700;
+	color: #a11414;
+	text-decoration: underline;
+}
