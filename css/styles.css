@@ -10,8 +10,7 @@ body {
 /* 10 */
 .wrapper {
 	width: 88%;
-	height: 90%;
-	margin: 0 auto 2.28%;
+	margin: 0 auto;
 	background-color: #fff;
 	padding: 0 3%;
   }
@@ -23,7 +22,7 @@ body {
 }
 /* 10 */
 .header__heading {
-	margin:3.6% 0 3.6%;
+	padding:3.6% 0;
 	color:#A11414;
 	font-family: Roboto;
 	font-size: 2rem;
